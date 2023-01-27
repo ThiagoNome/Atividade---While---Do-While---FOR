@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo 3</title>
+</head>
+<body>
+    <h1>Modelo 3</h1>
+    <div id="resul"></div>
+    
+    <script>
+        let num = 1;
+        let num_soma = 2;
+        let texto = "";
+        while(num_soma <= 10){
+            num = num + num_soma;
+            num_soma++
+            texto += "O número é " + num + ".</br>"
+            document.getElementById("resul").innerHTML=texto;
+        }
+    </script>
+
+</body>
+</html>
